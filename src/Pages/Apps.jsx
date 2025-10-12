@@ -10,6 +10,10 @@ const Apps = () => {
     const searchApps = searchInput ?
         apps.filter(app => app.title.toLowerCase().includes(searchInput)) : apps
 
+    if (loading) {
+        return <p>Loading .....</p>
+    }
+
     return (
         <div className='w-11/12 md:w-10/12 mx-auto'>
             <div className='text-center mt-15 space-y-3'>
@@ -40,7 +44,7 @@ const Apps = () => {
                     {
                         searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
                     }
-                </div> : <AppsNotFound></AppsNotFound> }
+                </div> : <AppsNotFound></AppsNotFound>}
 
         </div>
     );

@@ -4,8 +4,9 @@ import AppCard from './AppCard';
 import { Link } from 'react-router';
 
 const Applications = () => {
-    const { apps, loading } = useAppsData();
+    const { apps } = useAppsData();
     const treadingApps = apps.slice(0, 8)
+
 
     return (
         <div className='w-11/12 md:w-10/12 mx-auto mt-15'>

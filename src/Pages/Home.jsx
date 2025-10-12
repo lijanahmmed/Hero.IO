@@ -5,6 +5,7 @@ import heroImg from '../assets/hero.png';
 import Applications from '../Components/Applications';
 
 const Home = () => {
+
     return (
         <div>
             <div className='w-11/12 md:w-10/12 mx-auto text-center space-y-5 mt-15'>
