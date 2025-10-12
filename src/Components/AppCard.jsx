@@ -3,7 +3,7 @@ import iconDownload from '../assets/icon-downloads.png';
 import iconRating from '../assets/icon-ratings.png';
 
 const AppCard = ({ app }) => {
-    const { id, image, title, ratingAvg, downloads } = app;
+    const { image, title, ratingAvg, downloads } = app;
 
     return (
         <div className="card bg-base-100 shadow-lg">
@@ -17,7 +17,7 @@ const AppCard = ({ app }) => {
                 <div className="card-actions justify-between">
                     <div className="bg-gray-100 p-2 text-green-500 font-bold flex gap-2 items-center">
                         <img className='w-5 h-5' src={iconDownload} alt="" />
-                        <p>{downloads/1000000}M</p>
+                        <p>{downloads / 1000000}M</p>
                     </div>
                     <div className="bg-orange-100 p-2 text-orange-500 font-bold flex gap-2 items-center">
                         <img className='w-5 h-5' src={iconRating} alt="" />
