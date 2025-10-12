@@ -22,7 +22,7 @@ const Home = () => {
             <div className='bg-gradient-to-r from-purple-600 to-purple-500 py-10 space-y-5 text-white'>
                 <div className='w-11/12 md:w-10/12 mx-auto text-center'>
                     <h3 className='text-3xl font-bold'>Trusted by Millions, Built for You</h3>
-                    <div className='mt-6 flex justify-evenly'>
+                    <div className='mt-6 flex flex-col md:flex-row gap-10 justify-evenly'>
                         <div className='space-y-3'>
                             <p>Total Downloads</p>
                             <p className='text-5xl font-semibold'>29.6M</p>
