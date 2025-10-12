@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-sm">
-            <div className="navbar-start mr-5 md:ml-10">
+            <div className="navbar-start mr-5 md:ml-10 lg:ml-20">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                 </ul>
             </div>
-            <div className="navbar-end mr-5 md:mr-10">
+            <div className="navbar-end mr-5 md:mr-10 lg:mr-20">
                 <a href='https://github.com/lijanahmmed' className="btn bg-gradient-to-r from-purple-600 to-purple-500">
                     <span className='flex items-center gap-2 text-white'>
                         <FaGithub></FaGithub>
