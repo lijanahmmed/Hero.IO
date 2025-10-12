@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaAppStoreIos } from 'react-icons/fa';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
-import heroImg from '../assets/hero.png'
+import heroImg from '../assets/hero.png';
+import Applications from '../Components/Applications';
 
 const Home = () => {
     return (
@@ -41,7 +42,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                
+                <Applications></Applications>
             </div>
         </div>
     );

@@ -1,0 +1,364 @@
+[
+  {
+    "image": "https://example.com/images/app1.jpg",
+    "title": "TaskFlow Pro",
+    "companyName": "Zenbit Technologies",
+    "id": 1,
+    "description": "TaskFlow Pro is an advanced productivity and workflow management app built to simplify how teams plan, collaborate, and execute projects. Designed for modern businesses, it combines task scheduling, real-time chat, AI-powered automation, and intuitive analytics to streamline operations. With TaskFlow Pro, users can assign roles, set deadlines, and monitor progress across projects from a unified dashboard. Its smart reminders help ensure deadlines are met without overwhelming users with notifications. The app integrates seamlessly with popular tools such as Slack, Google Drive, and Trello, enabling smooth data exchange and coordination.\n\nWhat sets TaskFlow Pro apart is its adaptive AI assistant that learns user habits to optimize work patterns. It suggests ideal task order, predicts workload pressure points, and even recommends breaks to maintain productivity balance. The app includes built-in time tracking to help managers analyze efficiency and allocate resources effectively. Teams can visualize workflows using Kanban, Gantt charts, or timeline views depending on project type. In addition, detailed performance reports provide insights into task completion rates, collaboration frequency, and overall productivity metrics.\n\nSecurity is a top priority—data is encrypted end-to-end, ensuring all communication and files remain private. Whether managing small startup teams or large-scale enterprises, TaskFlow Pro scales effortlessly. The offline mode ensures accessibility anywhere, anytime, even without an internet connection. Regular updates deliver enhanced AI features and UX improvements based on community feedback.\n\nFor freelancers, it serves as a personal productivity coach. For teams, it becomes the backbone of communication and project success. TaskFlow Pro doesn’t just manage tasks—it empowers people to manage their time, creativity, and focus more effectively. Over 2 million users trust TaskFlow Pro to transform chaos into clarity every single day.",
+    "size": 86,
+    "reviews": 12450,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 8550 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.jpg",
+    "title": "FitSync",
+    "companyName": "Pulse Health Labs",
+    "id": 2,
+    "description": "FitSync is a comprehensive fitness and health-tracking app that redefines how users monitor their wellness journey. It merges activity tracking, nutrition planning, and mental wellness features into one cohesive ecosystem. The app automatically syncs with wearables like Apple Watch, Fitbit, and Garmin, recording every heartbeat, calorie, and step. Using advanced machine learning, FitSync analyzes daily patterns to offer tailored workout plans and diet recommendations that align with user goals, whether that’s muscle gain, fat loss, or overall wellness.\n\nBeyond physical fitness, FitSync focuses on holistic well-being. It includes guided meditation sessions, breathing exercises, and sleep-tracking analytics that help users maintain mental balance. Its smart hydration reminder ensures users stay energized throughout the day. A built-in community section allows people to share achievements, join fitness challenges, and connect with trainers.\n\nFitSync’s nutrition planner provides meal suggestions based on dietary preferences, allergies, and caloric targets. It even integrates barcode scanning for instant food logging. Users receive weekly insights summarizing progress and recommendations for improvement. The AI assistant adapts dynamically to performance trends—boosting motivation when activity drops and adjusting plans when fatigue is detected.\n\nPrivacy remains paramount. Health data is encrypted and stored locally by default, with optional cloud sync. FitSync is available on Android, iOS, and web platforms, ensuring consistent experience across devices. For anyone aiming to live a healthier, more mindful life, FitSync serves as both a digital coach and accountability partner.",
+    "size": 112,
+    "reviews": 21200,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.jpg",
+    "title": "PhotoCraft Studio",
+    "companyName": "VisionSpark Media",
+    "id": 3,
+    "description": "PhotoCraft Studio is a next-generation photo editing application crafted for creators, photographers, and social media enthusiasts. With a blend of professional-grade tools and beginner-friendly design, it empowers users to turn ordinary pictures into breathtaking visuals. Its engine supports RAW image editing, AI background removal, and real-time lighting adjustment for flawless results. Users can explore a rich library of filters, LUTs, and overlays to create unique aesthetics that match their creative style.\n\nOne standout feature is its AI-driven enhancement mode. With a single tap, PhotoCraft analyzes brightness, shadows, and contrast to deliver magazine-quality edits. It also supports layers, masking, and advanced retouching options—previously only found in desktop software. Users can add cinematic flares, double exposure effects, or animate photos into short video clips with motion blur effects.\n\nFor social media creators, PhotoCraft includes ready-to-use templates for Instagram, TikTok, and YouTube thumbnails. The app even suggests trending color palettes and typography combinations based on platform data. Every project can be saved in multiple resolutions, ensuring compatibility with both print and digital mediums.\n\nSecurity and privacy are built-in—projects are stored locally unless shared by the user. The cloud sync option provides backup access and collaborative editing with teammates. With over 10 million downloads, PhotoCraft Studio has become a creative powerhouse, helping millions redefine visual storytelling in the digital era.",
+    "size": 156,
+    "reviews": 45600,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 10300 },
+      { "name": "5 star", "count": 26900 }
+    ]
+  },
+
+  {
+    "image": "https://example.com/images/app4.jpg",
+    "title": "NoteWise",
+    "companyName": "CleverBits Inc.",
+    "id": 4,
+    "description": "A smart note-taking app that organizes ideas, voice memos, and sketches using AI categorization.",
+    "size": 54,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.jpg",
+    "title": "MindEase",
+    "companyName": "CalmSphere Labs",
+    "id": 5,
+    "description": "A mindfulness and meditation app offering guided sessions, stress tracking, and calming soundscapes.",
+    "size": 77,
+    "reviews": 15400,
+    "ratingAvg": 4.9,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.jpg",
+    "title": "Learnify",
+    "companyName": "BrightMind Co.",
+    "id": 6,
+    "description": "An AI-powered e-learning app with personalized study paths, flashcards, and quiz-based reinforcement.",
+    "size": 95,
+    "reviews": 16700,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.jpg",
+    "title": "EcoTrack",
+    "companyName": "GreenNova Labs",
+    "id": 7,
+    "description": "Helps users track carbon footprint, manage sustainable goals, and earn green rewards.",
+    "size": 68,
+    "reviews": 9200,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.jpg",
+    "title": "MusicMate",
+    "companyName": "Rhythmix Audio",
+    "id": 8,
+    "description": "Music player and discovery app featuring AI playlists, lyrics sync, and offline mode.",
+    "size": 132,
+    "reviews": 38700,
+    "ratingAvg": 4.7,
+    "downloads": 8400000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2700 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 9400 },
+      { "name": "5 star", "count": 19900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.jpg",
+    "title": "TravelTrek",
+    "companyName": "WanderApp Studios",
+    "id": 9,
+    "description": "Smart itinerary planner that suggests destinations, routes, and hotels based on travel history.",
+    "size": 145,
+    "reviews": 15600,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 8200 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.jpg",
+    "title": "CodeNest",
+    "companyName": "DevCore Systems",
+    "id": 10,
+    "description": "Developer-focused coding IDE for mobile with syntax highlighting and Git integration.",
+    "size": 190,
+    "reviews": 11200,
+    "ratingAvg": 4.8,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+
+  {
+    "image": "https://example.com/images/app11.jpg",
+    "title": "RecipeCraft",
+    "companyName": "CookJoy Ltd.",
+    "id": 11,
+    "description": "Discover, save, and share thousands of recipes with calorie tracking and grocery lists.",
+    "size": 80,
+    "reviews": 8200,
+    "ratingAvg": 4.3,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.jpg",
+    "title": "GameBoost",
+    "companyName": "PlayCore Interactive",
+    "id": 12,
+    "description": "Optimizes mobile gaming performance with memory cleaning and FPS boost.",
+    "size": 64,
+    "reviews": 45200,
+    "ratingAvg": 4.2,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2700 },
+      { "name": "2 star", "count": 3600 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 23700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.jpg",
+    "title": "Budgetly",
+    "companyName": "FinTrack Co.",
+    "id": 13,
+    "description": "Smart budget and expense manager with AI spending insights and bill reminders.",
+    "size": 58,
+    "reviews": 16400,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.jpg",
+    "title": "LinguaPro",
+    "companyName": "Polyglot Systems",
+    "id": 14,
+    "description": "Language learning app with AI tutors, pronunciation correction, and gamified lessons.",
+    "size": 115,
+    "reviews": 32000,
+    "ratingAvg": 4.9,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 19900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.jpg",
+    "title": "HomeNest",
+    "companyName": "SmartLiving Inc.",
+    "id": 15,
+    "description": "Smart home control app integrating IoT devices for lighting, temperature, and security.",
+    "size": 88,
+    "reviews": 13900,
+    "ratingAvg": 4.5,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.jpg",
+    "title": "EduCast",
+    "companyName": "StreamEd Global",
+    "id": 16,
+    "description": "Live class and course streaming app for educators with interactive whiteboard tools.",
+    "size": 134,
+    "reviews": 27100,
+    "ratingAvg": 4.7,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 14600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app17.jpg",
+    "title": "ChefBot",
+    "companyName": "FoodAI Ltd.",
+    "id": 17,
+    "description": "AI-based meal planner that generates recipes from available ingredients.",
+    "size": 73,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app18.jpg",
+    "title": "Artify",
+    "companyName": "NeoCanvas Studio",
+    "id": 18,
+    "description": "Digital drawing app with brushes, layers, and pressure-sensitive stylus support.",
+    "size": 182,
+    "reviews": 25600,
+    "ratingAvg": 4.9,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 6300 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app19.jpg",
+    "title": "SafeVault",
+    "companyName": "CyberFort Labs",
+    "id": 19,
+    "description": "Secure file locker and password manager with biometric encryption.",
+    "size": 66,
+    "reviews": 11400,
+    "ratingAvg": 4.8,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 6900 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app20.jpg",
+    "title": "CityGuide+",
+    "companyName": "UrbanExplore",
+    "id": 20,
+    "description": "Offline travel guide app featuring AR navigation, local tips, and restaurant reviews.",
+    "size": 102,
+    "reviews": 17600,
+    "ratingAvg": 4.4,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  }
+]
