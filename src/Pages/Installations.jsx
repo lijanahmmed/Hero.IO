@@ -26,11 +26,14 @@ const Installations = () => {
                 </select>
             </div>
 
-            <div className='mt-10 space-y-4'>
-                {
-                    installApplication.map(installation => <Installation key={installation.id} installation={installation}></Installation>)
-                }
-            </div>
+            {installApplication.length > 0 ?
+                <div className='mt-10 space-y-4'>
+                    {
+                        installApplication.map(installation => <Installation key={installation.id} installation={installation} setInstallApplication={setInstallApplication}></Installation>)
+                    }
+                </div> :
+                <p className='mt-15 text-center text-3xl font-bold'>No Apps Installed Yet</p>
+            }
         </div>
     );
 };
