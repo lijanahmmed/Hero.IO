@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useAppsData from '../Hook/hook';
 import AppCard from '../Components/AppCard';
 import AppsNotFound from '../Components/AppsNotFound';
+import LoadingPage from '../Components/LoadingPage';
 
 const Apps = () => {
     const { apps, loading } = useAppsData();
@@ -11,7 +12,7 @@ const Apps = () => {
         apps.filter(app => app.title.toLowerCase().includes(searchInput)) : apps
 
     if (loading) {
-        return <p>Loading .....</p>
+        return <LoadingPage></LoadingPage>
     }
 
     return (
@@ -39,12 +40,14 @@ const Apps = () => {
                 </label>
             </div>
 
-            {searchApps.length > 0 ?
-                <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-15'>
-                    {
-                        searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-                    }
-                </div> : <AppsNotFound></AppsNotFound>}
+            {loading ?  <LoadingPage></LoadingPage> : 
+                searchApps.length > 0 ?
+                    <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-15'>
+                        {
+                            searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                        }
+                    </div> : <AppsNotFound></AppsNotFound>
+            }
 
         </div>
     );

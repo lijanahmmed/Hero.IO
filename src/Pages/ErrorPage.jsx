@@ -1,10 +1,18 @@
 import React from 'react';
 import errorPage from '../assets/error-404.png'
 import { useNavigate } from 'react-router';
+import useAppsData from '../Hook/hook';
+import LoadingPage from '../Components/LoadingPage';
 const ErrorPage = () => {
+    const { loading } = useAppsData();
+
     const navigate = useNavigate();
     const handleGoBack = () =>{
         navigate(-1)
+    }
+
+    if (loading) {
+        return <LoadingPage></LoadingPage>
     }
 
     return (

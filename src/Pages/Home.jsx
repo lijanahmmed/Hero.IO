@@ -3,9 +3,14 @@ import { FaAppStoreIos } from 'react-icons/fa';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
 import heroImg from '../assets/hero.png';
 import Applications from '../Components/Applications';
+import useAppsData from '../Hook/hook';
+import LoadingPage from '../Components/LoadingPage';
 
 const Home = () => {
-
+    const { loading } = useAppsData();
+    if (loading) {
+        return <LoadingPage></LoadingPage>
+    }
     return (
         <div>
             <div className='w-11/12 md:w-10/12 mx-auto text-center space-y-5 mt-15'>

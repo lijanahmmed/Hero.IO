@@ -1,20 +1,44 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useAppsData from '../Hook/hook';
 import iconDownload from '../assets/icon-downloads.png';
 import iconRating from '../assets/icon-ratings.png';
 import iconReview from '../assets/icon-review.png'
 import Recharts from './Recharts';
+import ErrorAppDetails from './ErrorAppDetails';
+import LoadingPage from './LoadingPage';
 
 const AppDetails = () => {
     const { apps, loading } = useAppsData();
+    const [installed, setInstalled] = useState(false);
     const { id } = useParams();
-    const app = apps.find(application => application.id === Number(id))
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app || {};
+    
+    useEffect(() => {
+        const installedApp = localStorage.getItem(`appInstalled_${id}`);
+        if (installedApp === 'true') {
+            setInstalled(true)
+        }
+    }, [id]);
 
     if (loading) {
-        return <p>Loading .....</p>
+        return <LoadingPage></LoadingPage>
     }
+    
+    const app = apps.find(application => application.id === Number(id))
+    if(!app){
+        return <ErrorAppDetails></ErrorAppDetails>
+    }
+
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app || {};
+
+    const handleInstall = () => {
+        console.log('clicked')
+        setInstalled(true)
+        localStorage.setItem(`appInstalled_${id}`, 'true')
+    }
+
+    
+
 
     return (
         <div className='mt-20 mx-auto w-11/12 md:w-10/12'>
@@ -42,7 +66,7 @@ const AppDetails = () => {
                             <p className='text-xl font-bold'>{reviews / 1000}K</p>
                         </div>
                     </div>
-                    <button className='mt-4 btn px-10 bg-green-500 text-white'>Install Now ({size} MB)</button>
+                    <button onClick={handleInstall} disabled={installed} className={`mt-4 btn px-10 text-white ${installed ? 'bg-green-500 cursor-not-allowed' : "bg-red-500"}`}>{(installed) ? 'Installed' : `Install Now (${size} MB)`}</button>
                 </div>
             </div>
             <div>

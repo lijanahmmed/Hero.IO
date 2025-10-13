@@ -11,7 +11,6 @@ import {
 } from 'recharts';
 
 const Recharts = ({ ratings }) => {
-    console.log(ratings)
     return (
         <div className='mt-15'>
             <h3 className='text-lg font-bold'>Rating</h3>
