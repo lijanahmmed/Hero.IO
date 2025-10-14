@@ -69,7 +69,7 @@ const AppDetails = () => {
                     <button
                         onClick={handleInstall}
                         disabled={installed}
-                        className={`mt-4 btn px-10 text-white bg-green-500 hover:bg-green-600 disabled:bg-red-500 disabled:cursor-not-allowed`}>
+                        className={`mt-4 btn px-10 text-white bg-green-500 disabled:text-gray-700 disabled:cursor-not-allowed`}>
                         {(installed) ? 'Installed' : `Install Now (${size} MB)`}
                     </button>
                 </div>

@@ -42,12 +42,12 @@ const Installations = () => {
             </div>
 
             {installApplication.length > 0 ?
-                <div className='mt-10 space-y-4'>
+                <div className='mt-10 space-y-4 pb-20'>
                     {
                         sortedApp.map(installation => <Installation key={installation.id} installation={installation} setInstallApplication={setInstallApplication}></Installation>)
                     }
                 </div> :
-                <p className='mt-15 text-center text-3xl font-bold'>No Apps Installed Yet</p>
+                <p className='mt-15 text-center text-3xl font-bold pb-20'>No Apps Installed Yet</p>
             }
 
         </div>
