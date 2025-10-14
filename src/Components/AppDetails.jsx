@@ -8,7 +8,7 @@ import Recharts from './Recharts';
 import ErrorAppDetails from './ErrorAppDetails';
 import LoadingPage from './LoadingPage';
 import { showAppInstallation } from '../LocalStorage/LocalStorage';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { apps, loading } = useAppsData();
@@ -81,7 +81,7 @@ const AppDetails = () => {
                 <h3 className='text-lg font-bold mb-4'>Description</h3>
                 <p className='text-gray-500'>{description}</p>
             </div>
-            <ToastContainer />
+            
         </div>
     );
 };
