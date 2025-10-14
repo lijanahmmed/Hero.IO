@@ -40,13 +40,15 @@ const Apps = () => {
                 </label>
             </div>
 
-            {loading ?  <LoadingPage></LoadingPage> : 
-                searchApps.length > 0 ?
-                    <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-15'>
-                        {
-                            searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-                        }
-                    </div> : <AppsNotFound></AppsNotFound>
+            {
+                loading ? <LoadingPage></LoadingPage> :
+                    searchApps.length > 0 ?
+                        <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-15'>
+
+                            {
+                                searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                            }
+                        </div> : <AppsNotFound></AppsNotFound>
             }
 
         </div>

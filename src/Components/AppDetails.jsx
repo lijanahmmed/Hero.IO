@@ -35,7 +35,7 @@ const AppDetails = () => {
 
     const handleInstall = () => {
         setInstalled(true)
-        toast.success(`Yay!! ${title} is installed`)
+        toast.success(`Yay!! ${title} is installed successfully`)
         localStorage.setItem(`appInstalled_${id}`, 'true');
         showAppInstallation(app);
     }

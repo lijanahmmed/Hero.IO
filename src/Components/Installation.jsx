@@ -8,7 +8,7 @@ const Installation = ({ installation, setInstallApplication }) => {
     const { id, image, title, downloads, ratingAvg, size } = installation;
 
     const handleUninstall = (id) => {
-        toast.info(`${title} app is uninstalled`)
+        toast.info(`${title} is uninstalled from your device`)
         removeAppInstallation(id)
         setInstallApplication(prev => prev.filter(app => app.id !== Number(id)))
 
