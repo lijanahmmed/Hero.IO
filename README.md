@@ -1,16 +1,27 @@
-# React + Vite
+# Hero.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hero.IO** is a modern app container platform that lets you discover, download, and manage mobile and web applications in one place. Explore trending apps, check ratings and reviews, and stay updated with the latest releases—all in a seamless, user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **App Discovery**: Browse a wide variety of apps across categories.  
+- **Ratings & Reviews**: Check user ratings and reviews before downloading.  
+- **Trending Apps**: Explore popular and trending applications easily.  
+- **App Management**: Install, update, and organize apps from a single platform.  
+- **User-Friendly Interface**: Smooth navigation and intuitive design.  
+- **Personalized Recommendations**: Get app suggestions based on your interests.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technology Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **JavaScript** – Core programming language for logic and functionality. 
+- **React** – Frontend library for building the UI.
+- **React Router** – For client-side routing and navigation.
+- **Tailwind CSS** – Utility-first CSS framework for styling.
+- **DaisyUI** – Tailwind CSS component library for ready-to-use UI components. 
+
+---
+
