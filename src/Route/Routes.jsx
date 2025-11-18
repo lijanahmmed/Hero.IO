@@ -8,33 +8,33 @@ import AppDetails from "../Components/AppDetails";
 import LoadingPage from "../Components/LoadingPage";
 
 const router = createBrowserRouter([
-    {
-        path: '/',
-        Component: Root,
-        hydrateFallbackElement: <LoadingPage></LoadingPage>,
-        children: [
-            {
-                index: true,
-                Component: Home
-            },
-            {
-                path: '/apps',
-                Component: Apps
-            },
-            {
-                path: '/installations',
-                Component: Installations
-            },
-            {
-                path: '*',
-                Component: ErrorPage
-            },
-            {
-                path: '/apps/:id',
-                Component: AppDetails
-            }
-        ]
-    }
-])
+  {
+    path: "/",
+    Component: Root,
+    hydrateFallbackElement: <LoadingPage></LoadingPage>,
+    children: [
+      {
+        index: true,
+        Component: Home,
+      },
+      {
+        path: "/apps",
+        Component: Apps,
+      },
+      {
+        path: "/installations",
+        Component: Installations,
+      },
+      {
+        path: "*",
+        Component: ErrorPage,
+      },
+      {
+        path: "/apps/:id",
+        Component: AppDetails,
+      },
+    ],
+  },
+]);
 
 export default router;
